@@ -1,9 +1,9 @@
-prison_810209 => nrel_main_idtf:
-   [Исправительная колония №5](* <- lang_ru;; *);;
+п»їprison_810209 => nrel_main_idtf:
+   [РСЃРїСЂР°РІРёС‚РµР»СЊРЅР°СЏ РєРѕР»РѕРЅРёСЏ в„–5](* <- lang_ru;; *);;
 prison_810209 => nrel_zip_code:
    [225295](* <- lang_ru;; *);;
 prison_810209 => nrel_address:
-   [ г. Ивацевичи, ул. Дзержинского, 1](* <- lang_ru;; *);;
+   [ Рі. РРІР°С†РµРІРёС‡Рё, СѓР». Р”Р·РµСЂР¶РёРЅСЃРєРѕРіРѕ, 1](* <- lang_ru;; *);;
 prison_810209 => nrel_geographical_location: ...
 (* <-concept_mapped_point;; 
 => nrel_WGS_84_translation: [52.7153821, 25.3421277] 
@@ -16,10 +16,10 @@ prison_810209 => nrel_geographical_location: ...
 prison_810209 <- rrel_key_sc_element:
     prison_810209_Image (*
     => nrel_main_idtf:
-     [Исправительная колония №5 - Изображение](* <- lang_ru;; *);;
+     [РСЃРїСЂР°РІРёС‚РµР»СЊРЅР°СЏ РєРѕР»РѕРЅРёСЏ в„–5 - РР·РѕР±СЂР°Р¶РµРЅРёРµ](* <- lang_ru;; *);;
     <-sc_illustration;;
     <= nrel_sc_text_translation: ...
         (*
-        ->rrel_example:"file://Исправительная колония №5.jpg"(* <-image;; *);;
+        ->rrel_example:"file://РСЃРїСЂР°РІРёС‚РµР»СЊРЅР°СЏ РєРѕР»РѕРЅРёСЏ в„–5.jpg"(* <-image;; *);;
         *);;
 *);;
