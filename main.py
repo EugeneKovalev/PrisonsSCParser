@@ -40,7 +40,7 @@ for prisons_block in prisons_by_regions:
 
 gmaps = googlemaps.Client(key='AIzaSyAs5bmk9_Vs586Q8s2ExTVwz7_rcmzl7xY')
 
-for prison in parsed_prisons[0:5]:
+for prison in parsed_prisons[0:1]:
     scs_file = open(prison['name'] + '.scs', 'w')
     system_name = 'prison_' + str(random.getrandbits(30))
     write_name(scs_file, **{'system_name': system_name, 'name': prison['name']})
