@@ -1,0 +1,25 @@
+prison_821962594 => nrel_main_idtf:
+   [Исправительная колония №5](* <- lang_ru;; *);;
+prison_821962594 => nrel_zip_code:
+   [225295](* <- lang_ru;; *);;
+prison_821962594 => nrel_address:
+   [ г. Ивацевичи, ул. Дзержинского, 1](* <- lang_ru;; *);;
+prison_821962594 => nrel_geographical_location: ...
+(* <-concept_mapped_point;; 
+=> nrel_WGS_84_translation: [52.7153821, 25.3421277] 
+(* -> ... (* < - concept_coordinate;; 
+->rrel_latitude: ... (* <= nrel_value: ... 
+(* -> rrel_degree: 52.7153821;; * );; * );; 
+->rrel_longitude: ... (* <= nrel_value: ... 
+(* -> rrel_degree: 25.3421277;; 
+* );;* );;* );;* );;* );; 
+prison_821962594 <- rrel_key_sc_element:
+    prison_821962594_Image (*
+    => nrel_main_idtf:
+     [Исправительная колония №5 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительная колония №5.jpg"(* <-image;; *);;
+        *);;
+*);;
