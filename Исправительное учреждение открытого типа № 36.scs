@@ -1,0 +1,17 @@
+prison_597334419 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 36](* <- lang_ru;; *);;
+prison_597334419 => nrel_zip_code:
+   [222122](* <- lang_ru;; *);;
+prison_597334419 => nrel_address:
+   [ Борисовский район, д. Лошница, ул. Мичурина, 54-1](* <- lang_ru;; *);;
+prison_597334419 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [54.2784448, 28.7587792] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.2784448] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [28.7587792] ;; *);; *);;
+                    *);;
+        *);;
+    *);;

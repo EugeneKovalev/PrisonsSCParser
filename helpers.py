@@ -27,25 +27,14 @@ def write_image(scs_file, **kwargs):
 
 
 def write_geolocation(scs_file, **kwargs):
-    scs_file.write(kwargs.get('system_name') + ' => nrel_geographical_location: ...' + '\n')
-    scs_file.write('(* <-concept_mapped_point;; \n')
-    scs_file.write('=> nrel_WGS_84_translation: [{0}, {1}] \n'.format(kwargs.get('lat'), kwargs.get('lng')))
-    scs_file.write('(* -> ... (* < - concept_coordinate;; \n')
-    scs_file.write('->rrel_latitude: ... (* <= nrel_value: ... \n')
-    scs_file.write('(* -> rrel_degree: {0};; * );; * );; \n'.format(kwargs.get('lat')))
-    scs_file.write('->rrel_longitude: ... (* <= nrel_value: ... \n')
-    scs_file.write('(* -> rrel_degree: {0};; \n'.format(kwargs.get('lng')))
-    scs_file.write('* );;* );;* );;* );;* );; \n')
-
-
-
-
-
-
-
-
-
-
-
-
-
+    scs_file.write('{0} => nrel_geographical_location: ...\n'.format(kwargs.get('system_name')))
+    scs_file.write('    (*\n')
+    scs_file.write('        <-concept_mapped_point;;\n')
+    scs_file.write('        => nrel_WGS_84_translation: [{0}, {1}] (*\n'.format(kwargs.get('lat'), kwargs.get('lng')))
+    scs_file.write('            -> ... (*\n')
+    scs_file.write('                <- concept_coordinate;;\n')
+    scs_file.write('                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [{0}] ;; *);; *);;\n'.format(kwargs.get('lat')))
+    scs_file.write('                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [{0}] ;; *);; *);;\n'.format(kwargs.get('lng')))
+    scs_file.write('                    *);;\n')
+    scs_file.write('        *);;\n')
+    scs_file.write('    *);;\n')

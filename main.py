@@ -40,24 +40,29 @@ for prisons_block in prisons_by_regions:
 
 gmaps = googlemaps.Client(key='AIzaSyAs5bmk9_Vs586Q8s2ExTVwz7_rcmzl7xY')
 
-for prison in parsed_prisons[0:1]:
-    scs_file = open(prison['name'] + '.scs', 'w')
-    system_name = 'prison_' + str(random.getrandbits(30))
-    write_name(scs_file, **{'system_name': system_name, 'name': prison['name']})
-    write_zip_code(scs_file, **{'system_name': system_name, 'zip_code': prison['zip_code']})
-    write_address(scs_file, **{'system_name': system_name, 'address': prison['address']})
+main_scs_file = open('prison.scs', 'w')
+for prison in parsed_prisons:
+    try:
+        scs_file = open(prison['name'] + '.scs', 'w')
+        system_name = 'prison_' + str(random.getrandbits(30))
+        write_name(scs_file, **{'system_name': system_name, 'name': prison['name']})
+        write_zip_code(scs_file, **{'system_name': system_name, 'zip_code': prison['zip_code']})
+        write_address(scs_file, **{'system_name': system_name, 'address': prison['address']})
 
-    geocode_result = gmaps.geocode(prison['address'])
-    if geocode_result:
-        write_geolocation(scs_file, **{'system_name': system_name,
-                                       'lat': geocode_result[0]['geometry']['location']['lat'],
-                                       'lng': geocode_result[0]['geometry']['location']['lng']})
+        geocode_result = gmaps.geocode(prison['address'])
+        if geocode_result:
+            write_geolocation(scs_file, **{'system_name': system_name,
+                                           'lat': geocode_result[0]['geometry']['location']['lat'],
+                                           'lng': geocode_result[0]['geometry']['location']['lng']})
 
-    request_url = 'http://35.161.57.139:8080/gpix/v1/gpix?keyword={0}&limit=1'.format(quote(prison['name']))
-    request = Request(request_url)
-    request.add_header('Authorization', 'QsiP2ZX7Ps')
-    response = json.loads(urlopen(request).read().decode('utf-8'))
-    image_url = response['data']['images'][0]['image_url']
-    image_name = "{0}.{1}".format(prison['name'], image_url.split('.')[-1])
-    urlretrieve(image_url, image_name)
-    write_image(scs_file, **{'system_name': system_name, 'name': prison['name'], 'image_name': image_name})
+        request_url = 'http://35.161.57.139:8080/gpix/v1/gpix?keyword={0}&limit=1'.format(quote(prison['name']))
+        request = Request(request_url)
+        request.add_header('Authorization', 'QsiP2ZX7Ps')
+        response = json.loads(urlopen(request).read().decode('utf-8'))
+        image_url = response['data']['images'][0]['image_url']
+        image_name = "{0}.{1}".format(prison['name'], image_url.split('.')[-1])
+        urlretrieve(image_url, image_name)
+        write_image(scs_file, **{'system_name': system_name, 'name': prison['name'], 'image_name': image_name})
+        main_scs_file.write('prison -> {0};;\n'.format(system_name))
+    except Exception:
+        continue

@@ -1,0 +1,27 @@
+prison_423310760 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 3](* <- lang_ru;; *);;
+prison_423310760 => nrel_zip_code:
+   [225210](* <- lang_ru;; *);;
+prison_423310760 => nrel_address:
+   [ г. Береза, ул. Красноармейская, 99](* <- lang_ru;; *);;
+prison_423310760 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [52.5275037, 24.9579429] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.5275037] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.9579429] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_423310760 <- rrel_key_sc_element:
+    prison_423310760_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 3 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 3.jpg"(* <-image;; *);;
+        *);;
+*);;

@@ -1,0 +1,27 @@
+prison_928768305 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 31](* <- lang_ru;; *);;
+prison_928768305 => nrel_zip_code:
+   [231521](* <- lang_ru;; *);;
+prison_928768305 => nrel_address:
+   [ Щучинский район, д. Гурнофель](* <- lang_ru;; *);;
+prison_928768305 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.7342002, 24.8607671] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.7342002] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.8607671] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_928768305 <- rrel_key_sc_element:
+    prison_928768305_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 31 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 31.jpg"(* <-image;; *);;
+        *);;
+*);;
