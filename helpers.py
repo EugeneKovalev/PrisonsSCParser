@@ -9,8 +9,32 @@ def write_zip_code(scs_file, **kwargs):
 
 
 def write_address(scs_file, **kwargs):
-    scs_file.write(kwargs.get('system_name') + ' => nrel_address:' + '\n')
-    scs_file.write('   [' + kwargs.get('address') + '](* <- lang_ru;; *);;' + '\n')
+    full_address_components = kwargs.get('address')
+    street_number = [x for x in full_address_components if 'street_number' in x['types']]
+    street_name = [x for x in full_address_components if 'route' in x['types']]
+    settlement = [x for x in full_address_components if 'locality' in x['types']]
+    region = [x for x in full_address_components if 'administrative_area_level_2' in x['types']]
+    district = [x for x in full_address_components if 'administrative_area_level_1' in x['types']]
+    country = [x for x in full_address_components if 'country' in x['types']]
+
+    if country:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_country:' + '\n')
+        scs_file.write('   [' + country[0]['long_name'] + '](* <- lang_ru;; *);;' + '\n')
+    if district:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_district:' + '\n')
+        scs_file.write('   [' + district[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
+    if region:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_region:' + '\n')
+        scs_file.write('   [' + region[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
+    if settlement:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
+        scs_file.write('   [' + settlement[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
+    if street_name:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
+        scs_file.write('   [' + street_name[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
+    if street_number:
+        scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
+        scs_file.write('   [' + street_number[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
 
 
 def write_image(scs_file, **kwargs):
@@ -36,6 +60,7 @@ def write_geolocation(scs_file, **kwargs):
     scs_file.write('->rrel_longitude: ... (* <= nrel_value: ... \n')
     scs_file.write('(* -> rrel_degree: {0};; \n'.format(kwargs.get('lng')))
     scs_file.write('* );;* );;* );;* );;* );; \n')
+
 
 
 
