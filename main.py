@@ -74,7 +74,25 @@ for prison in parsed_prisons[0:1]:
         image_name = "{0}.{1}".format(prison['name'], image_url.split('.')[-1])
         urlretrieve(image_url, image_name)
         write_image(scs_file, **{'system_name': system_name, 'name': prison['name'], 'image_name': image_name})
-        main_scs_file.write('prison -> {0};;\n'.format(system_name))
+
+        if prison['name'].startswith('Воспитательная колония'):
+            scs_file.write(kwargs.get('system_name') + ' <- settlement ;;' + '\n')
+            main_scs_file.write('upbringing_colony -> {0};;\n'.format(system_name))
+        elif prison['name'].startswith('Исправительная колония'):
+            scs_file.write(kwargs.get('system_name') + ' <- settlement ;;' + '\n')
+            main_scs_file.write('correction_colony -> {0};;\n'.format(system_name))
+        elif prison['name'].startswith('Исправительное учреждение'):
+            scs_file.write(kwargs.get('system_name') + ' <- building ;;' + '\n')
+            main_scs_file.write('correction_open_institute -> {0};;\n'.format(system_name))
+        elif prison['name'].startswith('Лечебно-трудовой профилакторий'):
+            scs_file.write(kwargs.get('system_name') + ' <- building ;;' + '\n')
+            main_scs_file.write('labour_cure_profilactory -> {0};;\n'.format(system_name))
+        elif prison['name'].startswith('Следственный изолятор'):
+            scs_file.write(kwargs.get('system_name') + ' <- building ;;' + '\n')
+            main_scs_file.write('investigatory_isolator -> {0};;\n'.format(system_name))
+        else:
+            scs_file.write(kwargs.get('system_name') + ' <- building ;;' + '\n')
+            main_scs_file.write('prison -> {0};;\n'.format(system_name))
     except Exception:
         continue
 

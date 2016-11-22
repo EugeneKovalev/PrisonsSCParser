@@ -30,10 +30,10 @@ def write_address(scs_file, **kwargs):
         scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
         scs_file.write('   [' + settlement[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
     if street_name:
-        scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
+        scs_file.write(kwargs.get('system_name') + ' => nrel_street:' + '\n')
         scs_file.write('   [' + street_name[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
     if street_number:
-        scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
+        scs_file.write(kwargs.get('system_name') + ' => nrel_street_number:' + '\n')
         scs_file.write('   [' + street_number[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
 
 

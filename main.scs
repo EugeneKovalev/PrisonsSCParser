@@ -1,0 +1,52 @@
+penitentiary => nrel_main_idtf:
+    [пенитенциарное учреждение](* <- lang_ru;;  *);;
+
+penitentiary -> upbringing_colony;;
+penitentiary -> correction_colony;;
+penitentiary -> correction_open_institute;;
+penitentiary -> labour_cure_profilactory;;
+penitentiary -> investigatory_isolator;;
+penitentiary -> prison;;
+
+upbringing_colony => nrel_main_idtf:
+    [воспитательная колония](* <- lang_ru;;  *);;
+
+correction_colony => nrel_main_idtf:
+    [исправительная колония](* <- lang_ru;;  *);;
+
+correction_open_institute => nrel_main_idtf:
+    [исправительное учреждение открытого типа](* <- lang_ru;;  *);;
+
+labour_cure_profilactory => nrel_main_idtf:
+    [лечебно-трудовой профилакторий](* <- lang_ru;;  *);;
+
+investigatory_isolator => nrel_main_idtf:
+    [следственный изолятор](* <- lang_ru;;  *);;
+
+prison => nrel_main_idtf:
+    [тюрьма](* <- lang_ru;;  *);;
+
+building => nrel_main_idtf:
+    [здание](* <- lang_ru;;  *);;
+
+settlement => nrel_main_idtf:
+    [поселение](* <- lang_ru;;  *);;
+
+sc_node_norole_relation -> nrel_country;;
+nrel_country => nrel_main_idtf:
+    [страна*](* <- lang_ru;;  *);;
+sc_node_norole_relation -> nrel_district;;
+nrel_district => nrel_main_idtf:
+    [область*](* <- lang_ru;;  *);;
+sc_node_norole_relation -> nrel_region;;
+nrel_region => nrel_main_idtf:
+    [район*](* <- lang_ru;;  *);;
+sc_node_norole_relation -> nrel_settlement;;
+nrel_settlement => nrel_main_idtf:
+    [поселение*](* <- lang_ru;;  *);;
+sc_node_norole_relation -> nrel_street;;
+nrel_street => nrel_main_idtf:
+    [улица*](* <- lang_ru;;  *);;
+sc_node_norole_relation -> nrel_street_number;;
+nrel_street_number => nrel_main_idtf:
+    [номер дома*](* <- lang_ru;;  *);;
