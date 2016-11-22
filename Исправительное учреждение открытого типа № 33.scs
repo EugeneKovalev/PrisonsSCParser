@@ -1,0 +1,27 @@
+prison_639473663 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 33](* <- lang_ru;; *);;
+prison_639473663 => nrel_zip_code:
+   [220037](* <- lang_ru;; *);;
+prison_639473663 => nrel_address:
+   [ г. Минск, ул. Передовая, 13](* <- lang_ru;; *);;
+prison_639473663 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.8989622, 27.6212523] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.8989622] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.6212523] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_639473663 <- rrel_key_sc_element:
+    prison_639473663_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 33 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 33.jpg"(* <-image;; *);;
+        *);;
+*);;

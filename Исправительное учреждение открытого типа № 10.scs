@@ -1,0 +1,17 @@
+prison_209422076 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 10](* <- lang_ru;; *);;
+prison_209422076 => nrel_zip_code:
+   [210603](* <- lang_ru;; *);;
+prison_209422076 => nrel_address:
+   [ г. Витебск, ул. Базовая, 17](* <- lang_ru;; *);;
+prison_209422076 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [55.2238152, 30.0966212] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [55.2238152] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.0966212] ;; *);; *);;
+                    *);;
+        *);;
+    *);;

@@ -1,0 +1,27 @@
+prison_6856596 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 24](* <- lang_ru;; *);;
+prison_6856596 => nrel_zip_code:
+   [231707](* <- lang_ru;; *);;
+prison_6856596 => nrel_address:
+   [ г. Гродно, ул. Лидская, 29Б](* <- lang_ru;; *);;
+prison_6856596 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.6715319, 23.8538235] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.6715319] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [23.8538235] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_6856596 <- rrel_key_sc_element:
+    prison_6856596_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 24 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 24.jpg"(* <-image;; *);;
+        *);;
+*);;

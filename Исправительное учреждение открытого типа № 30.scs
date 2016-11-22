@@ -1,0 +1,17 @@
+prison_559354304 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 30](* <- lang_ru;; *);;
+prison_559354304 => nrel_zip_code:
+   [231535](* <- lang_ru;; *);;
+prison_559354304 => nrel_address:
+   [ Щучинский район, д. Нароши](* <- lang_ru;; *);;
+prison_559354304 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.7991271, 24.4918005] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.7991271] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.4918005] ;; *);; *);;
+                    *);;
+        *);;
+    *);;

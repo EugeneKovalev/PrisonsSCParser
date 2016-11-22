@@ -1,0 +1,27 @@
+prison_387439823 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 42](* <- lang_ru;; *);;
+prison_387439823 => nrel_zip_code:
+   [223214](* <- lang_ru;; *);;
+prison_387439823 => nrel_address:
+   [ Червенский район, д. Войнилово](* <- lang_ru;; *);;
+prison_387439823 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [53.763008, 28.3477083] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.763008] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [28.3477083] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_387439823 <- rrel_key_sc_element:
+    prison_387439823_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 42 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 42.jpg"(* <-image;; *);;
+        *);;
+*);;

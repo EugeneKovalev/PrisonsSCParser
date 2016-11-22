@@ -1,0 +1,16 @@
+prison_601699068 => nrel_main_idtf:
+   [Исправительная колония № 22](* <- lang_ru;; *);;
+prison_601699068 => nrel_zip_code:
+   [225295](* <- lang_ru;; *);;
+prison_601699068 => nrel_address:
+   [ Ивацевичский район, ст. Доманово, а/я 20](* <- lang_ru;; *);;
+prison_601699068 <- rrel_key_sc_element:
+    prison_601699068_Image (*
+    => nrel_main_idtf:
+     [Исправительная колония № 22 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительная колония № 22.jpg"(* <-image;; *);;
+        *);;
+*);;

@@ -1,0 +1,27 @@
+prison_988517270 => nrel_main_idtf:
+   [Исправительная колония № 20](* <- lang_ru;; *);;
+prison_988517270 => nrel_zip_code:
+   [247760](* <- lang_ru;; *);;
+prison_988517270 => nrel_address:
+   [ г. Мозырь-11](* <- lang_ru;; *);;
+prison_988517270 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [52.0322082, 29.2223129] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.0322082] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [29.2223129] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_988517270 <- rrel_key_sc_element:
+    prison_988517270_Image (*
+    => nrel_main_idtf:
+     [Исправительная колония № 20 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительная колония № 20.jpg"(* <-image;; *);;
+        *);;
+*);;

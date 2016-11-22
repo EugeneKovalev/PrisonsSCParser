@@ -1,0 +1,16 @@
+prison_80694142 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 28](* <- lang_ru;; *);;
+prison_80694142 => nrel_zip_code:
+   [231608](* <- lang_ru;; *);;
+prison_80694142 => nrel_address:
+   [ Мостовский район, д. Лунно](* <- lang_ru;; *);;
+prison_80694142 <- rrel_key_sc_element:
+    prison_80694142_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 28 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 28.jpg"(* <-image;; *);;
+        *);;
+*);;

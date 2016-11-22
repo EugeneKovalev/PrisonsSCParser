@@ -1,0 +1,16 @@
+prison_502268585 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 23](* <- lang_ru;; *);;
+prison_502268585 => nrel_zip_code:
+   [247526](* <- lang_ru;; *);;
+prison_502268585 => nrel_address:
+   [ Речицкий район, г.п. Заречье](* <- lang_ru;; *);;
+prison_502268585 <- rrel_key_sc_element:
+    prison_502268585_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 23 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 23.jpg"(* <-image;; *);;
+        *);;
+*);;

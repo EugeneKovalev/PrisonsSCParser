@@ -1,0 +1,27 @@
+prison_353761995 => nrel_main_idtf:
+   [Исправительное учреждение открытого типа № 47](* <- lang_ru;; *);;
+prison_353761995 => nrel_zip_code:
+   [213470](* <- lang_ru;; *);;
+prison_353761995 => nrel_address:
+   [ г. Мстиславль, ул. Калинина, 31](* <- lang_ru;; *);;
+prison_353761995 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [54.0188307, 31.7244374] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.0188307] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [31.7244374] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_353761995 <- rrel_key_sc_element:
+    prison_353761995_Image (*
+    => nrel_main_idtf:
+     [Исправительное учреждение открытого типа № 47 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительное учреждение открытого типа № 47.jpg"(* <-image;; *);;
+        *);;
+*);;

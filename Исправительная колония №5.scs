@@ -1,20 +1,22 @@
-﻿prison_810209 => nrel_main_idtf:
+prison_860125849 => nrel_main_idtf:
    [Исправительная колония №5](* <- lang_ru;; *);;
-prison_810209 => nrel_zip_code:
+prison_860125849 => nrel_zip_code:
    [225295](* <- lang_ru;; *);;
-prison_810209 => nrel_address:
+prison_860125849 => nrel_address:
    [ г. Ивацевичи, ул. Дзержинского, 1](* <- lang_ru;; *);;
-prison_810209 => nrel_geographical_location: ...
-(* <-concept_mapped_point;; 
-=> nrel_WGS_84_translation: [52.7153821, 25.3421277] 
-(* -> ... (* < - concept_coordinate;; 
-->rrel_latitude: ... (* <= nrel_value: ... 
-(* -> rrel_degree: 52.7153821;; * );; * );; 
-->rrel_longitude: ... (* <= nrel_value: ... 
-(* -> rrel_degree: 25.3421277;; 
-* );;* );;* );;* );;* );; 
-prison_810209 <- rrel_key_sc_element:
-    prison_810209_Image (*
+prison_860125849 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [52.7153821, 25.3421277] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.7153821] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [25.3421277] ;; *);; *);;
+                    *);;
+        *);;
+    *);;
+prison_860125849 <- rrel_key_sc_element:
+    prison_860125849_Image (*
     => nrel_main_idtf:
      [Исправительная колония №5 - Изображение](* <- lang_ru;; *);;
     <-sc_illustration;;

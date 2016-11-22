@@ -1,0 +1,16 @@
+prison_581126270 => nrel_main_idtf:
+   [Исправительная колония № 17](* <- lang_ru;; *);;
+prison_581126270 => nrel_zip_code:
+   [213004](* <- lang_ru;; *);;
+prison_581126270 => nrel_address:
+   [ Шкловский район, п. Молодежный](* <- lang_ru;; *);;
+prison_581126270 <- rrel_key_sc_element:
+    prison_581126270_Image (*
+    => nrel_main_idtf:
+     [Исправительная колония № 17 - Изображение](* <- lang_ru;; *);;
+    <-sc_illustration;;
+    <= nrel_sc_text_translation: ...
+        (*
+        ->rrel_example:"file://Исправительная колония № 17.jpg"(* <-image;; *);;
+        *);;
+*);;
