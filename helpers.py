@@ -1,3 +1,8 @@
+import xlrd
+
+workbook = xlrd.open_workbook('CITY.xls')
+sheet = workbook.sheet_by_index(0)
+
 def write_name(scs_file, **kwargs):
     scs_file.write(kwargs.get('system_name') + ' => nrel_main_idtf:' + '\n')
     scs_file.write('   [' + kwargs.get('name') + '](* <- lang_ru;; *);;' + '\n')
@@ -7,6 +12,13 @@ def write_zip_code(scs_file, **kwargs):
     scs_file.write(kwargs.get('system_name') + ' => nrel_zip_code:' + '\n')
     scs_file.write('   [' + kwargs.get('zip_code') + '](* <- lang_ru;; *);;' + '\n')
 
+def write_soato(scs_file, **kwargs):
+    settlement = kwargs.get('settlement')
+    for row_index in range(0, sheet.nrows):
+        if sheet.cell(row_index, 1).value == settlement:
+            scs_file.write(kwargs.get('system_name') + ' => nrel_soato:' + '\n')
+            scs_file.write('   [' + sheet.cell(row_index, 0).value + '](* <- lang_ru;; *);;' + '\n')
+            break
 
 def write_address(scs_file, **kwargs):
     full_address_components = kwargs.get('address')
@@ -29,6 +41,8 @@ def write_address(scs_file, **kwargs):
     if settlement:
         scs_file.write(kwargs.get('system_name') + ' => nrel_settlement:' + '\n')
         scs_file.write('   [' + settlement[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')
+        write_soato(scs_file, **{'settlement': settlement[0]['short_name'],
+                                 'system_name': kwargs.get('system_name')})
     if street_name:
         scs_file.write(kwargs.get('system_name') + ' => nrel_street:' + '\n')
         scs_file.write('   [' + street_name[0]['short_name'] + '](* <- lang_ru;; *);;' + '\n')

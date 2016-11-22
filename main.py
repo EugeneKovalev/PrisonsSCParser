@@ -48,7 +48,6 @@ for prison in parsed_prisons[0:1]:
         system_name = 'prison_' + str(random.getrandbits(30))
         write_name(scs_file, **{'system_name': system_name, 'name': prison['name']})
         write_zip_code(scs_file, **{'system_name': system_name, 'zip_code': prison['zip_code']})
-        write_address(scs_file, **{'system_name': system_name, 'address': prison['address']})
 
         geocode_result = gmaps.geocode(prison['address'])
         if geocode_result:
