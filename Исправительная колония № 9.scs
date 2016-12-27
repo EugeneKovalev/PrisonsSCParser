@@ -1,10 +1,8 @@
-prison_641987478 => nrel_main_idtf:
+prison_719256646 => nrel_main_idtf:
    [Исправительная колония № 9](* <- lang_ru;; *);;
-prison_641987478 => nrel_zip_code:
+prison_719256646 => nrel_zip_code:
    [213410](* <- lang_ru;; *);;
-prison_641987478 => nrel_address:
-   [ г. Горки, ул. Добролюбова, 16](* <- lang_ru;; *);;
-prison_641987478 => nrel_geographical_location: ...
+prison_719256646 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [55.98952, 37.507969] (*
@@ -15,13 +13,16 @@ prison_641987478 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_641987478 <- rrel_key_sc_element:
-    prison_641987478_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония № 9 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония № 9.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_719256646 => nrel_osm_query: [(node(55.98802, 37.506469, 55.99102, 37.509469); <;);out meta;];;
+prison_719256646 => nrel_country:
+   [Россия](* <- lang_ru;; *);;
+prison_719256646 => nrel_district:
+   [МО](* <- lang_ru;; *);;
+prison_719256646 => nrel_region:
+   [г. Долгопрудный](* <- lang_ru;; *);;
+prison_719256646 => nrel_settlement:
+   [Долгопрудный](* <- lang_ru;; *);;
+prison_719256646 => nrel_street:
+   [ул. Добролюбова](* <- lang_ru;; *);;
+prison_719256646 => nrel_street_number:
+   [16](* <- lang_ru;; *);;

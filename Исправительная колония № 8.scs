@@ -1,10 +1,8 @@
-prison_795309241 => nrel_main_idtf:
+prison_870539694 => nrel_main_idtf:
    [Исправительная колония № 8](* <- lang_ru;; *);;
-prison_795309241 => nrel_zip_code:
+prison_870539694 => nrel_zip_code:
    [211388](* <- lang_ru;; *);;
-prison_795309241 => nrel_address:
-   [ г. Орша, ул. Ленина, 195А](* <- lang_ru;; *);;
-prison_795309241 => nrel_geographical_location: ...
+prison_870539694 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [54.5322364, 30.4461435] (*
@@ -15,13 +13,18 @@ prison_795309241 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_795309241 <- rrel_key_sc_element:
-    prison_795309241_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония № 8 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония № 8.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_870539694 => nrel_osm_query: [(node(54.5307364, 30.4446435, 54.5337364, 30.4476435); <;);out meta;];;
+prison_870539694 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_870539694 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_870539694 => nrel_region:
+   [Оршанский район](* <- lang_ru;; *);;
+prison_870539694 => nrel_settlement:
+   [Орша](* <- lang_ru;; *);;
+prison_870539694 => nrel_soato:
+   [2424000000](* <- lang_ru;; *);;
+prison_870539694 => nrel_street:
+   [ул. Ленина](* <- lang_ru;; *);;
+prison_870539694 => nrel_street_number:
+   [195а](* <- lang_ru;; *);;

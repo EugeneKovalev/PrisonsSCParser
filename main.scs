@@ -53,3 +53,11 @@ nrel_street_number => nrel_main_idtf:
 sc_node_norole_relation -> nrel_soato;;
 nrel_soato => nrel_main_idtf:
     [код SOATO*](* <- lang_ru;;  *);;
+
+sc_node_norole_relation -> nrel_geographical_location;;
+nrel_geographical_location => nrel_main_idtf:
+    [географические координаты*](* <- lang_ru;;  *);;
+
+sc_node_norole_relation -> nrel_zip_code;;
+nrel_zip_code => nrel_main_idtf:
+    [почтовый индекс*](* <- lang_ru;;  *);;

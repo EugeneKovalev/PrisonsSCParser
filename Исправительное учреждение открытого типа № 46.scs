@@ -1,27 +1,30 @@
-prison_367055624 => nrel_main_idtf:
+prison_394804331 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 46](* <- lang_ru;; *);;
-prison_367055624 => nrel_zip_code:
+prison_394804331 => nrel_zip_code:
    [213188](* <- lang_ru;; *);;
-prison_367055624 => nrel_address:
-   [ г.п. Круглое, ул. Советская, 96](* <- lang_ru;; *);;
-prison_367055624 => nrel_geographical_location: ...
+prison_394804331 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [52.8129101, 37.2328516] (*
+        => nrel_WGS_84_translation: [52.8129206, 37.2328588] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.8129101] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [37.2328516] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.8129206] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [37.2328588] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_367055624 <- rrel_key_sc_element:
-    prison_367055624_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 46 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 46.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_394804331 => nrel_osm_query: [(node(52.8114206, 37.2313588, 52.8144206, 37.2343588); <;);out meta;];;
+prison_394804331 => nrel_country:
+   [Россия](* <- lang_ru;; *);;
+prison_394804331 => nrel_district:
+   [Орловская обл.](* <- lang_ru;; *);;
+prison_394804331 => nrel_region:
+   [Верховский р-н](* <- lang_ru;; *);;
+prison_394804331 => nrel_settlement:
+   [Верховье](* <- lang_ru;; *);;
+prison_394804331 => nrel_soato:
+   [2205819011](* <- lang_ru;; *);;
+prison_394804331 => nrel_street:
+   [ул. Советская](* <- lang_ru;; *);;
+prison_394804331 => nrel_street_number:
+   [64-66](* <- lang_ru;; *);;

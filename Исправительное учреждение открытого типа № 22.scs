@@ -1,16 +1,4 @@
-prison_597839221 => nrel_main_idtf:
+prison_349200259 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 22](* <- lang_ru;; *);;
-prison_597839221 => nrel_zip_code:
+prison_349200259 => nrel_zip_code:
    [247511](* <- lang_ru;; *);;
-prison_597839221 => nrel_address:
-   [ Речицкий район, д. Борщевка](* <- lang_ru;; *);;
-prison_597839221 <- rrel_key_sc_element:
-    prison_597839221_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 22 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 22.jpg"(* <-image;; *);;
-        *);;
-*);;

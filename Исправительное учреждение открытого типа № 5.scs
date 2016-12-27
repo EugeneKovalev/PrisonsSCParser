@@ -1,6 +1,4 @@
-prison_39223142 => nrel_main_idtf:
+prison_897749686 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 5](* <- lang_ru;; *);;
-prison_39223142 => nrel_zip_code:
+prison_897749686 => nrel_zip_code:
    [225050](* <- lang_ru;; *);;
-prison_39223142 => nrel_address:
-   [ Каменецкий район, дер. Сушки](* <- lang_ru;; *);;

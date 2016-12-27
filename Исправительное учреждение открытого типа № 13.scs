@@ -1,27 +1,4 @@
-prison_368670313 => nrel_main_idtf:
+prison_1037797817 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 13](* <- lang_ru;; *);;
-prison_368670313 => nrel_zip_code:
+prison_1037797817 => nrel_zip_code:
    [211949](* <- lang_ru;; *);;
-prison_368670313 => nrel_address:
-   [ Миорский район, д. Горки](* <- lang_ru;; *);;
-prison_368670313 => nrel_geographical_location: ...
-    (*
-        <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [55.596877, 28.2205556] (*
-            -> ... (*
-                <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [55.596877] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [28.2205556] ;; *);; *);;
-                    *);;
-        *);;
-    *);;
-prison_368670313 <- rrel_key_sc_element:
-    prison_368670313_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 13 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 13.jpg"(* <-image;; *);;
-        *);;
-*);;

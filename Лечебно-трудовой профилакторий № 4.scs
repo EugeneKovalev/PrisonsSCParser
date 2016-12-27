@@ -1,10 +1,8 @@
-prison_520173902 => nrel_main_idtf:
+prison_842510478 => nrel_main_idtf:
    [Лечебно-трудовой профилакторий № 4](* <- lang_ru;; *);;
-prison_520173902 => nrel_zip_code:
+prison_842510478 => nrel_zip_code:
    [210040](* <- lang_ru;; *);;
-prison_520173902 => nrel_address:
-   [ г. Витебск, ул. Гагарина, 298](* <- lang_ru;; *);;
-prison_520173902 => nrel_geographical_location: ...
+prison_842510478 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [55.2390583, 30.2704432] (*
@@ -15,3 +13,14 @@ prison_520173902 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
+prison_842510478 => nrel_osm_query: [(node(55.2375583, 30.2689432, 55.240558300000004, 30.2719432); <;);out meta;];;
+prison_842510478 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_842510478 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_842510478 => nrel_region:
+   [Витебский район](* <- lang_ru;; *);;
+prison_842510478 => nrel_street:
+   [улица Гагарина](* <- lang_ru;; *);;
+prison_842510478 => nrel_street_number:
+   [298](* <- lang_ru;; *);;

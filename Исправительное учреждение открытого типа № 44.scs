@@ -1,10 +1,8 @@
-prison_979838648 => nrel_main_idtf:
+prison_101973969 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 44](* <- lang_ru;; *);;
-prison_979838648 => nrel_zip_code:
+prison_101973969 => nrel_zip_code:
    [212015](* <- lang_ru;; *);;
-prison_979838648 => nrel_address:
-   [ г. Могилев, ул. Строителей, 7](* <- lang_ru;; *);;
-prison_979838648 => nrel_geographical_location: ...
+prison_101973969 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.9051408, 30.289619] (*
@@ -15,13 +13,16 @@ prison_979838648 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_979838648 <- rrel_key_sc_element:
-    prison_979838648_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 44 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 44.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_101973969 => nrel_osm_query: [(node(53.9036408, 30.288119, 53.9066408, 30.291119); <;);out meta;];;
+prison_101973969 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_101973969 => nrel_district:
+   [Могилёвская область](* <- lang_ru;; *);;
+prison_101973969 => nrel_region:
+   [Могилёвский район](* <- lang_ru;; *);;
+prison_101973969 => nrel_settlement:
+   [Могилёв](* <- lang_ru;; *);;
+prison_101973969 => nrel_street:
+   [ул. Строителей](* <- lang_ru;; *);;
+prison_101973969 => nrel_street_number:
+   [7](* <- lang_ru;; *);;

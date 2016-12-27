@@ -1,27 +1,26 @@
-prison_797604588 => nrel_main_idtf:
+prison_203172188 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 54](* <- lang_ru;; *);;
-prison_797604588 => nrel_zip_code:
+prison_203172188 => nrel_zip_code:
    [220090](* <- lang_ru;; *);;
-prison_797604588 => nrel_address:
-   [ г. Минск, Логойский тракт, 134](* <- lang_ru;; *);;
-prison_797604588 => nrel_geographical_location: ...
+prison_203172188 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [53.96059649999999, 27.6297101] (*
+        => nrel_WGS_84_translation: [53.9606062, 27.629701] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.96059649999999] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.6297101] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9606062] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.629701] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_797604588 <- rrel_key_sc_element:
-    prison_797604588_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 54 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 54.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_203172188 => nrel_osm_query: [(node(53.9591062, 27.628201, 53.9621062, 27.631201); <;);out meta;];;
+prison_203172188 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_203172188 => nrel_settlement:
+   [Минск](* <- lang_ru;; *);;
+prison_203172188 => nrel_soato:
+   [5000000000](* <- lang_ru;; *);;
+prison_203172188 => nrel_street:
+   [Логойский тракт](* <- lang_ru;; *);;
+prison_203172188 => nrel_street_number:
+   [50](* <- lang_ru;; *);;

@@ -1,10 +1,8 @@
-prison_559354304 => nrel_main_idtf:
+prison_135813335 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 30](* <- lang_ru;; *);;
-prison_559354304 => nrel_zip_code:
+prison_135813335 => nrel_zip_code:
    [231535](* <- lang_ru;; *);;
-prison_559354304 => nrel_address:
-   [ Щучинский район, д. Нароши](* <- lang_ru;; *);;
-prison_559354304 => nrel_geographical_location: ...
+prison_135813335 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.7991271, 24.4918005] (*
@@ -15,3 +13,12 @@ prison_559354304 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
+prison_135813335 => nrel_osm_query: [(node(53.7976271, 24.4903005, 53.8006271, 24.4933005); <;);out meta;];;
+prison_135813335 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_135813335 => nrel_district:
+   [Гродненская область](* <- lang_ru;; *);;
+prison_135813335 => nrel_region:
+   [Щучинский район](* <- lang_ru;; *);;
+prison_135813335 => nrel_street:
+   [Unnamed Road](* <- lang_ru;; *);;

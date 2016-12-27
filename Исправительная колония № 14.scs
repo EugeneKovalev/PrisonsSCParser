@@ -1,17 +1,4 @@
-prison_992979320 => nrel_main_idtf:
+prison_227707235 => nrel_main_idtf:
    [Исправительная колония № 14](* <- lang_ru;; *);;
-prison_992979320 => nrel_zip_code:
+prison_227707235 => nrel_zip_code:
    [222125](* <- lang_ru;; *);;
-prison_992979320 => nrel_address:
-   [ Борисовский район, ст. Новосады](* <- lang_ru;; *);;
-prison_992979320 => nrel_geographical_location: ...
-    (*
-        <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [54.2509666, 28.6986576] (*
-            -> ... (*
-                <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.2509666] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [28.6986576] ;; *);; *);;
-                    *);;
-        *);;
-    *);;

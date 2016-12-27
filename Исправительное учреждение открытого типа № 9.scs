@@ -1,10 +1,8 @@
-prison_518975287 => nrel_main_idtf:
+prison_232690853 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 9](* <- lang_ru;; *);;
-prison_518975287 => nrel_zip_code:
+prison_232690853 => nrel_zip_code:
    [210034](* <- lang_ru;; *);;
-prison_518975287 => nrel_address:
-   [ г. Витебск, ул. 3-я Чепинская, 39](* <- lang_ru;; *);;
-prison_518975287 => nrel_geographical_location: ...
+prison_232690853 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [55.20974469999999, 30.13155519999999] (*
@@ -15,13 +13,16 @@ prison_518975287 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_518975287 <- rrel_key_sc_element:
-    prison_518975287_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 9 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 9.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_232690853 => nrel_osm_query: [(node(55.20824469999999, 30.13005519999999, 55.21124469999999, 30.13305519999999); <;);out meta;];;
+prison_232690853 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_232690853 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_232690853 => nrel_region:
+   [Витебский район](* <- lang_ru;; *);;
+prison_232690853 => nrel_settlement:
+   [Витебск](* <- lang_ru;; *);;
+prison_232690853 => nrel_soato:
+   [2401000000](* <- lang_ru;; *);;
+prison_232690853 => nrel_street:
+   [3-я Чепинская улица](* <- lang_ru;; *);;

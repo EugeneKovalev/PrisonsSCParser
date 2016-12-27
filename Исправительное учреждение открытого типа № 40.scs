@@ -1,10 +1,8 @@
-prison_166760921 => nrel_main_idtf:
+prison_314100148 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 40](* <- lang_ru;; *);;
-prison_166760921 => nrel_zip_code:
+prison_314100148 => nrel_zip_code:
    [222837](* <- lang_ru;; *);;
-prison_166760921 => nrel_address:
-   [ Пуховичский район, д. Ситники](* <- lang_ru;; *);;
-prison_166760921 => nrel_geographical_location: ...
+prison_314100148 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.6201016, 28.140493] (*
@@ -15,13 +13,16 @@ prison_166760921 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_166760921 <- rrel_key_sc_element:
-    prison_166760921_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 40 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 40.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_314100148 => nrel_osm_query: [(node(53.6186016, 28.138993, 53.6216016, 28.141993); <;);out meta;];;
+prison_314100148 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_314100148 => nrel_district:
+   [Минская область](* <- lang_ru;; *);;
+prison_314100148 => nrel_region:
+   [Пуховичский район](* <- lang_ru;; *);;
+prison_314100148 => nrel_settlement:
+   [Ситники](* <- lang_ru;; *);;
+prison_314100148 => nrel_soato:
+   [2227836076](* <- lang_ru;; *);;
+prison_314100148 => nrel_street:
+   [Н9351](* <- lang_ru;; *);;

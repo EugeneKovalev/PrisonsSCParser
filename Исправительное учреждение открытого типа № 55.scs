@@ -1,10 +1,8 @@
-prison_118593834 => nrel_main_idtf:
+prison_704112681 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 55](* <- lang_ru;; *);;
-prison_118593834 => nrel_zip_code:
+prison_704112681 => nrel_zip_code:
    [220000](* <- lang_ru;; *);;
-prison_118593834 => nrel_address:
-   [ г. Минск, ул. Героев 120-й дивизии, 29](* <- lang_ru;; *);;
-prison_118593834 => nrel_geographical_location: ...
+prison_704112681 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.9419549, 27.7239481] (*
@@ -15,13 +13,14 @@ prison_118593834 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_118593834 <- rrel_key_sc_element:
-    prison_118593834_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 55 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 55.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_704112681 => nrel_osm_query: [(node(53.9404549, 27.7224481, 53.9434549, 27.7254481); <;);out meta;];;
+prison_704112681 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_704112681 => nrel_settlement:
+   [Минск](* <- lang_ru;; *);;
+prison_704112681 => nrel_soato:
+   [5000000000](* <- lang_ru;; *);;
+prison_704112681 => nrel_street:
+   [ул. Героев 120-й дивизии](* <- lang_ru;; *);;
+prison_704112681 => nrel_street_number:
+   [29](* <- lang_ru;; *);;

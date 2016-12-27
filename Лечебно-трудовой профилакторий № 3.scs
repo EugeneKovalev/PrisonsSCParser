@@ -1,10 +1,8 @@
-prison_299467107 => nrel_main_idtf:
+prison_644253106 => nrel_main_idtf:
    [Лечебно-трудовой профилакторий № 3](* <- lang_ru;; *);;
-prison_299467107 => nrel_zip_code:
+prison_644253106 => nrel_zip_code:
    [223610](* <- lang_ru;; *);;
-prison_299467107 => nrel_address:
-   [ Слуцкий район, д. Павловка](* <- lang_ru;; *);;
-prison_299467107 => nrel_geographical_location: ...
+prison_644253106 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.1364325, 27.8071414] (*
@@ -15,13 +13,14 @@ prison_299467107 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_299467107 <- rrel_key_sc_element:
-    prison_299467107_Image (*
-    => nrel_main_idtf:
-     [Лечебно-трудовой профилакторий № 3 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Лечебно-трудовой профилакторий № 3.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_644253106 => nrel_osm_query: [(node(53.1349325, 27.8056414, 53.1379325, 27.8086414); <;);out meta;];;
+prison_644253106 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_644253106 => nrel_district:
+   [Мінская вобласць](* <- lang_ru;; *);;
+prison_644253106 => nrel_region:
+   [Слуцкий район](* <- lang_ru;; *);;
+prison_644253106 => nrel_settlement:
+   [Паўлаўка](* <- lang_ru;; *);;
+prison_644253106 => nrel_street:
+   [Unnamed Road](* <- lang_ru;; *);;

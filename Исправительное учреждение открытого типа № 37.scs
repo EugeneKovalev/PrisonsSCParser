@@ -1,10 +1,8 @@
-prison_588292617 => nrel_main_idtf:
+prison_189820993 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 37](* <- lang_ru;; *);;
-prison_588292617 => nrel_zip_code:
+prison_189820993 => nrel_zip_code:
    [222340](* <- lang_ru;; *);;
-prison_588292617 => nrel_address:
-   [ г. Воложин, ул. Белорусская, 87](* <- lang_ru;; *);;
-prison_588292617 => nrel_geographical_location: ...
+prison_189820993 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [54.08293920000001, 26.5227127] (*
@@ -15,13 +13,16 @@ prison_588292617 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_588292617 <- rrel_key_sc_element:
-    prison_588292617_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 37 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 37.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_189820993 => nrel_osm_query: [(node(54.08143920000001, 26.5212127, 54.08443920000001, 26.5242127); <;);out meta;];;
+prison_189820993 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_189820993 => nrel_district:
+   [Минская область](* <- lang_ru;; *);;
+prison_189820993 => nrel_region:
+   [Воложинский район](* <- lang_ru;; *);;
+prison_189820993 => nrel_settlement:
+   [Воложин](* <- lang_ru;; *);;
+prison_189820993 => nrel_soato:
+   [6220501000](* <- lang_ru;; *);;
+prison_189820993 => nrel_street:
+   [ул. Белорусская](* <- lang_ru;; *);;

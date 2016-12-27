@@ -1,27 +1,30 @@
-prison_583174030 => nrel_main_idtf:
+prison_18169139 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 29](* <- lang_ru;; *);;
-prison_583174030 => nrel_zip_code:
+prison_18169139 => nrel_zip_code:
    [231900](* <- lang_ru;; *);;
-prison_583174030 => nrel_address:
-   [ г. Волковыск, ул. Рокоссовского, 22](* <- lang_ru;; *);;
-prison_583174030 => nrel_geographical_location: ...
+prison_18169139 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [53.1433696, 24.478282] (*
+        => nrel_WGS_84_translation: [53.1433696, 24.4783008] (*
             -> ... (*
                 <- concept_coordinate;;
                 -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.1433696] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.478282] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.4783008] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_583174030 <- rrel_key_sc_element:
-    prison_583174030_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 29 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 29.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_18169139 => nrel_osm_query: [(node(53.1418696, 24.4768008, 53.1448696, 24.4798008); <;);out meta;];;
+prison_18169139 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_18169139 => nrel_district:
+   [Гродненская область](* <- lang_ru;; *);;
+prison_18169139 => nrel_region:
+   [Волковысский район](* <- lang_ru;; *);;
+prison_18169139 => nrel_settlement:
+   [Волковыск](* <- lang_ru;; *);;
+prison_18169139 => nrel_soato:
+   [4208501000](* <- lang_ru;; *);;
+prison_18169139 => nrel_street:
+   [ул. Рокоссовского](* <- lang_ru;; *);;
+prison_18169139 => nrel_street_number:
+   [85](* <- lang_ru;; *);;

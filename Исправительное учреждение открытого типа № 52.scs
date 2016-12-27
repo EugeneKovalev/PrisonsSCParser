@@ -1,10 +1,8 @@
-prison_63572539 => nrel_main_idtf:
+prison_602544294 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 52](* <- lang_ru;; *);;
-prison_63572539 => nrel_zip_code:
+prison_602544294 => nrel_zip_code:
    [225320](* <- lang_ru;; *);;
-prison_63572539 => nrel_address:
-   [ г. Барановичи, ул. Фроленкова, 178А](* <- lang_ru;; *);;
-prison_63572539 => nrel_geographical_location: ...
+prison_602544294 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.129513, 26.0444801] (*
@@ -15,13 +13,18 @@ prison_63572539 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_63572539 <- rrel_key_sc_element:
-    prison_63572539_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 52 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 52.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_602544294 => nrel_osm_query: [(node(53.128013, 26.0429801, 53.131013, 26.0459801); <;);out meta;];;
+prison_602544294 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_602544294 => nrel_district:
+   [Брестская область](* <- lang_ru;; *);;
+prison_602544294 => nrel_region:
+   [Барановичский район](* <- lang_ru;; *);;
+prison_602544294 => nrel_settlement:
+   [Барановичи](* <- lang_ru;; *);;
+prison_602544294 => nrel_soato:
+   [1410000000](* <- lang_ru;; *);;
+prison_602544294 => nrel_street:
+   [ул. Фроленкова](* <- lang_ru;; *);;
+prison_602544294 => nrel_street_number:
+   [19](* <- lang_ru;; *);;

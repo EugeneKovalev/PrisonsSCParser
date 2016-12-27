@@ -1,16 +1,4 @@
-prison_998322899 => nrel_main_idtf:
+prison_162806615 => nrel_main_idtf:
    [Исправительная колония-поселение № 21](* <- lang_ru;; *);;
-prison_998322899 => nrel_zip_code:
+prison_162806615 => nrel_zip_code:
    [247120](* <- lang_ru;; *);;
-prison_998322899 => nrel_address:
-   [ Ветковский район, п. Шубино](* <- lang_ru;; *);;
-prison_998322899 <- rrel_key_sc_element:
-    prison_998322899_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония-поселение № 21 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония-поселение № 21.jpg"(* <-image;; *);;
-        *);;
-*);;

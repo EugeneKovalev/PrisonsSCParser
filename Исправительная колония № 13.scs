@@ -1,27 +1,30 @@
-prison_930109942 => nrel_main_idtf:
+prison_931683763 => nrel_main_idtf:
    [Исправительная колония № 13](* <- lang_ru;; *);;
-prison_930109942 => nrel_zip_code:
+prison_931683763 => nrel_zip_code:
    [211791](* <- lang_ru;; *);;
-prison_930109942 => nrel_address:
-   [ г. Глубокое, ул. Советская, 205](* <- lang_ru;; *);;
-prison_930109942 => nrel_geographical_location: ...
+prison_931683763 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [55.1677051, 27.6736614] (*
+        => nrel_WGS_84_translation: [55.1677024, 27.6736432] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [55.1677051] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.6736614] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [55.1677024] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [27.6736432] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_930109942 <- rrel_key_sc_element:
-    prison_930109942_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония № 13 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония № 13.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_931683763 => nrel_osm_query: [(node(55.1662024, 27.6721432, 55.1692024, 27.6751432); <;);out meta;];;
+prison_931683763 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_931683763 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_931683763 => nrel_region:
+   [Глубокский район](* <- lang_ru;; *);;
+prison_931683763 => nrel_settlement:
+   [Глубокое](* <- lang_ru;; *);;
+prison_931683763 => nrel_soato:
+   [1225810026](* <- lang_ru;; *);;
+prison_931683763 => nrel_street:
+   [ул. Советская](* <- lang_ru;; *);;
+prison_931683763 => nrel_street_number:
+   [250](* <- lang_ru;; *);;

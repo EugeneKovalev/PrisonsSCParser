@@ -1,10 +1,8 @@
-prison_381954610 => nrel_main_idtf:
+prison_726388380 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 48](* <- lang_ru;; *);;
-prison_381954610 => nrel_zip_code:
+prison_726388380 => nrel_zip_code:
    [213763](* <- lang_ru;; *);;
-prison_381954610 => nrel_address:
-   [ г. Осиповичи, ул. Сумченко, 38](* <- lang_ru;; *);;
-prison_381954610 => nrel_geographical_location: ...
+prison_726388380 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.3107968, 28.6408119] (*
@@ -15,13 +13,18 @@ prison_381954610 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_381954610 <- rrel_key_sc_element:
-    prison_381954610_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 48 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 48.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_726388380 => nrel_osm_query: [(node(53.3092968, 28.6393119, 53.3122968, 28.6423119); <;);out meta;];;
+prison_726388380 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_726388380 => nrel_district:
+   [Могилёвская область](* <- lang_ru;; *);;
+prison_726388380 => nrel_region:
+   [Осиповичский район](* <- lang_ru;; *);;
+prison_726388380 => nrel_settlement:
+   [Осиповичи](* <- lang_ru;; *);;
+prison_726388380 => nrel_soato:
+   [1220820041](* <- lang_ru;; *);;
+prison_726388380 => nrel_street:
+   [ул. Сумченко](* <- lang_ru;; *);;
+prison_726388380 => nrel_street_number:
+   [38](* <- lang_ru;; *);;

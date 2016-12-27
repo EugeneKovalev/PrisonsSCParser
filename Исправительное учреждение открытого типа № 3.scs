@@ -1,27 +1,26 @@
-prison_423310760 => nrel_main_idtf:
+prison_895835068 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 3](* <- lang_ru;; *);;
-prison_423310760 => nrel_zip_code:
+prison_895835068 => nrel_zip_code:
    [225210](* <- lang_ru;; *);;
-prison_423310760 => nrel_address:
-   [ г. Береза, ул. Красноармейская, 99](* <- lang_ru;; *);;
-prison_423310760 => nrel_geographical_location: ...
+prison_895835068 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [52.5275037, 24.9579429] (*
+        => nrel_WGS_84_translation: [52.5274931, 24.9579499] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.5275037] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.9579429] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.5274931] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [24.9579499] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_423310760 <- rrel_key_sc_element:
-    prison_423310760_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 3 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 3.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_895835068 => nrel_osm_query: [(node(52.5259931, 24.9564499, 52.5289931, 24.9594499); <;);out meta;];;
+prison_895835068 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_895835068 => nrel_district:
+   [Брестская область](* <- lang_ru;; *);;
+prison_895835068 => nrel_settlement:
+   [Берёза](* <- lang_ru;; *);;
+prison_895835068 => nrel_street:
+   [улица Красноармейская](* <- lang_ru;; *);;
+prison_895835068 => nrel_street_number:
+   [91-95](* <- lang_ru;; *);;

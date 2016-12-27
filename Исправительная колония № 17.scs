@@ -1,16 +1,28 @@
-prison_581126270 => nrel_main_idtf:
+prison_1039406587 => nrel_main_idtf:
    [Исправительная колония № 17](* <- lang_ru;; *);;
-prison_581126270 => nrel_zip_code:
+prison_1039406587 => nrel_zip_code:
    [213004](* <- lang_ru;; *);;
-prison_581126270 => nrel_address:
-   [ Шкловский район, п. Молодежный](* <- lang_ru;; *);;
-prison_581126270 <- rrel_key_sc_element:
-    prison_581126270_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония № 17 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония № 17.jpg"(* <-image;; *);;
+prison_1039406587 => nrel_geographical_location: ...
+    (*
+        <-concept_mapped_point;;
+        => nrel_WGS_84_translation: [54.1806194, 30.28663409999999] (*
+            -> ... (*
+                <- concept_coordinate;;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.1806194] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.28663409999999] ;; *);; *);;
+                    *);;
         *);;
-*);;
+    *);;
+prison_1039406587 => nrel_osm_query: [(node(54.1791194, 30.28513409999999, 54.1821194, 30.28813409999999); <;);out meta;];;
+prison_1039406587 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_1039406587 => nrel_district:
+   [Могилёвская область](* <- lang_ru;; *);;
+prison_1039406587 => nrel_region:
+   [Шкловский район](* <- lang_ru;; *);;
+prison_1039406587 => nrel_settlement:
+   [Шклов](* <- lang_ru;; *);;
+prison_1039406587 => nrel_soato:
+   [7258501000](* <- lang_ru;; *);;
+prison_1039406587 => nrel_street:
+   [Р77](* <- lang_ru;; *);;

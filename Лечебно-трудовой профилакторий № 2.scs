@@ -1,10 +1,8 @@
-prison_123992957 => nrel_main_idtf:
+prison_808241955 => nrel_main_idtf:
    [Лечебно-трудовой профилакторий № 2](* <- lang_ru;; *);;
-prison_123992957 => nrel_zip_code:
+prison_808241955 => nrel_zip_code:
    [213422](* <- lang_ru;; *);;
-prison_123992957 => nrel_address:
-   [ Горецкий район, д. Староселье](* <- lang_ru;; *);;
-prison_123992957 => nrel_geographical_location: ...
+prison_808241955 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [54.3960294, 31.1652472] (*
@@ -15,13 +13,14 @@ prison_123992957 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_123992957 <- rrel_key_sc_element:
-    prison_123992957_Image (*
-    => nrel_main_idtf:
-     [Лечебно-трудовой профилакторий № 2 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Лечебно-трудовой профилакторий № 2.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_808241955 => nrel_osm_query: [(node(54.3945294, 31.1637472, 54.3975294, 31.1667472); <;);out meta;];;
+prison_808241955 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_808241955 => nrel_district:
+   [Магілёўская вобласць](* <- lang_ru;; *);;
+prison_808241955 => nrel_region:
+   [Горацкі раён](* <- lang_ru;; *);;
+prison_808241955 => nrel_settlement:
+   [Стараселле](* <- lang_ru;; *);;
+prison_808241955 => nrel_street:
+   [Н10301](* <- lang_ru;; *);;

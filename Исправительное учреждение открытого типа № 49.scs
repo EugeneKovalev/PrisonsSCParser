@@ -1,27 +1,28 @@
-prison_677604431 => nrel_main_idtf:
+prison_817282147 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 49](* <- lang_ru;; *);;
-prison_677604431 => nrel_zip_code:
+prison_817282147 => nrel_zip_code:
    [213010](* <- lang_ru;; *);;
-prison_677604431 => nrel_address:
-   [ г. Шклов, п. Молодежный](* <- lang_ru;; *);;
-prison_677604431 => nrel_geographical_location: ...
+prison_817282147 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [54.2023958, 30.2955436] (*
+        => nrel_WGS_84_translation: [54.1806194, 30.28663409999999] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.2023958] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.2955436] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [54.1806194] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.28663409999999] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_677604431 <- rrel_key_sc_element:
-    prison_677604431_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 49 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 49.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_817282147 => nrel_osm_query: [(node(54.1791194, 30.28513409999999, 54.1821194, 30.28813409999999); <;);out meta;];;
+prison_817282147 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_817282147 => nrel_district:
+   [Могилёвская область](* <- lang_ru;; *);;
+prison_817282147 => nrel_region:
+   [Шкловский район](* <- lang_ru;; *);;
+prison_817282147 => nrel_settlement:
+   [Шклов](* <- lang_ru;; *);;
+prison_817282147 => nrel_soato:
+   [7258501000](* <- lang_ru;; *);;
+prison_817282147 => nrel_street:
+   [Р77](* <- lang_ru;; *);;

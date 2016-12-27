@@ -1,27 +1,30 @@
-prison_861327955 => nrel_main_idtf:
+prison_773721786 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 17](* <- lang_ru;; *);;
-prison_861327955 => nrel_zip_code:
+prison_773721786 => nrel_zip_code:
    [246004](* <- lang_ru;; *);;
-prison_861327955 => nrel_address:
-   [ г. Гомель, ул. Рабочая, 22](* <- lang_ru;; *);;
-prison_861327955 => nrel_geographical_location: ...
+prison_773721786 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [52.4515527, 30.9777986] (*
+        => nrel_WGS_84_translation: [52.45154429999999, 30.9778112] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.4515527] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.9777986] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.45154429999999] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.9778112] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_861327955 <- rrel_key_sc_element:
-    prison_861327955_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 17 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 17.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_773721786 => nrel_osm_query: [(node(52.45004429999999, 30.9763112, 52.45304429999999, 30.9793112); <;);out meta;];;
+prison_773721786 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_773721786 => nrel_district:
+   [Гомельская область](* <- lang_ru;; *);;
+prison_773721786 => nrel_region:
+   [Гомельский район](* <- lang_ru;; *);;
+prison_773721786 => nrel_settlement:
+   [Гомель](* <- lang_ru;; *);;
+prison_773721786 => nrel_soato:
+   [2238823026](* <- lang_ru;; *);;
+prison_773721786 => nrel_street:
+   [ул. Рабочая](* <- lang_ru;; *);;
+prison_773721786 => nrel_street_number:
+   [21](* <- lang_ru;; *);;

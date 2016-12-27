@@ -1,16 +1,4 @@
-prison_1024186947 => nrel_main_idtf:
+prison_143661479 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 6](* <- lang_ru;; *);;
-prison_1024186947 => nrel_zip_code:
+prison_143661479 => nrel_zip_code:
    [225875](* <- lang_ru;; *);;
-prison_1024186947 => nrel_address:
-   [ Кобринский район, дер. Лущики](* <- lang_ru;; *);;
-prison_1024186947 <- rrel_key_sc_element:
-    prison_1024186947_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 6 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 6.jpg"(* <-image;; *);;
-        *);;
-*);;

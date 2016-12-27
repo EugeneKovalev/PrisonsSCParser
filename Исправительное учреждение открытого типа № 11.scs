@@ -1,10 +1,8 @@
-prison_1020449992 => nrel_main_idtf:
+prison_577536044 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 11](* <- lang_ru;; *);;
-prison_1020449992 => nrel_zip_code:
+prison_577536044 => nrel_zip_code:
    [210021](* <- lang_ru;; *);;
-prison_1020449992 => nrel_address:
-   [ г. Витебск, ул. Титова, 121, к.1](* <- lang_ru;; *);;
-prison_1020449992 => nrel_geographical_location: ...
+prison_577536044 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [55.19521229999999, 30.1461794] (*
@@ -15,13 +13,18 @@ prison_1020449992 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_1020449992 <- rrel_key_sc_element:
-    prison_1020449992_Image (*
-    => nrel_main_idtf:
-     [Исправительное учреждение открытого типа № 11 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительное учреждение открытого типа № 11.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_577536044 => nrel_osm_query: [(node(55.19371229999999, 30.1446794, 55.19671229999999, 30.1476794); <;);out meta;];;
+prison_577536044 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_577536044 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_577536044 => nrel_region:
+   [Витебский район](* <- lang_ru;; *);;
+prison_577536044 => nrel_settlement:
+   [Витебск](* <- lang_ru;; *);;
+prison_577536044 => nrel_soato:
+   [2401000000](* <- lang_ru;; *);;
+prison_577536044 => nrel_street:
+   [улица Титова](* <- lang_ru;; *);;
+prison_577536044 => nrel_street_number:
+   [121](* <- lang_ru;; *);;

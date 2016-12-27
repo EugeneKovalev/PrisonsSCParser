@@ -1,10 +1,8 @@
-prison_474254238 => nrel_main_idtf:
+prison_773606369 => nrel_main_idtf:
    [Следственный изолятор № 2](* <- lang_ru;; *);;
-prison_474254238 => nrel_zip_code:
+prison_773606369 => nrel_zip_code:
    [210026](* <- lang_ru;; *);;
-prison_474254238 => nrel_address:
-   [ г. Витебск, ул. Гагарина, 2](* <- lang_ru;; *);;
-prison_474254238 => nrel_geographical_location: ...
+prison_773606369 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [55.2100715, 30.2279362] (*
@@ -15,13 +13,18 @@ prison_474254238 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_474254238 <- rrel_key_sc_element:
-    prison_474254238_Image (*
-    => nrel_main_idtf:
-     [Следственный изолятор № 2 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Следственный изолятор № 2.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_773606369 => nrel_osm_query: [(node(55.2085715, 30.2264362, 55.2115715, 30.2294362); <;);out meta;];;
+prison_773606369 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_773606369 => nrel_district:
+   [Витебская область](* <- lang_ru;; *);;
+prison_773606369 => nrel_region:
+   [Витебский район](* <- lang_ru;; *);;
+prison_773606369 => nrel_settlement:
+   [Витебск](* <- lang_ru;; *);;
+prison_773606369 => nrel_soato:
+   [2401000000](* <- lang_ru;; *);;
+prison_773606369 => nrel_street:
+   [улица Гагарина](* <- lang_ru;; *);;
+prison_773606369 => nrel_street_number:
+   [35/2](* <- lang_ru;; *);;

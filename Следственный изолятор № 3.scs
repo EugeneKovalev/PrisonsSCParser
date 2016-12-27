@@ -1,27 +1,30 @@
-prison_1039048132 => nrel_main_idtf:
+prison_760081869 => nrel_main_idtf:
    [Следственный изолятор № 3](* <- lang_ru;; *);;
-prison_1039048132 => nrel_zip_code:
+prison_760081869 => nrel_zip_code:
    [246003](* <- lang_ru;; *);;
-prison_1039048132 => nrel_address:
-   [ г. Гомель, ул. Книжная, 1А](* <- lang_ru;; *);;
-prison_1039048132 => nrel_geographical_location: ...
+prison_760081869 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [52.4389532, 31.008983] (*
+        => nrel_WGS_84_translation: [52.4389638, 31.0089758] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.4389532] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [31.008983] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.4389638] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [31.0089758] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_1039048132 <- rrel_key_sc_element:
-    prison_1039048132_Image (*
-    => nrel_main_idtf:
-     [Следственный изолятор № 3 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Следственный изолятор № 3.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_760081869 => nrel_osm_query: [(node(52.4374638, 31.0074758, 52.4404638, 31.010475800000002); <;);out meta;];;
+prison_760081869 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_760081869 => nrel_district:
+   [Гомельская область](* <- lang_ru;; *);;
+prison_760081869 => nrel_region:
+   [Гомельский район](* <- lang_ru;; *);;
+prison_760081869 => nrel_settlement:
+   [Гомель](* <- lang_ru;; *);;
+prison_760081869 => nrel_soato:
+   [2238823026](* <- lang_ru;; *);;
+prison_760081869 => nrel_street:
+   [Книжная ул.](* <- lang_ru;; *);;
+prison_760081869 => nrel_street_number:
+   [9](* <- lang_ru;; *);;

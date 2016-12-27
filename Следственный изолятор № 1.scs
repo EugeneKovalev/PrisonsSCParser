@@ -1,10 +1,8 @@
-prison_129749830 => nrel_main_idtf:
+prison_1014331290 => nrel_main_idtf:
    [Следственный изолятор № 1](* <- lang_ru;; *);;
-prison_129749830 => nrel_zip_code:
+prison_1014331290 => nrel_zip_code:
    [220050](* <- lang_ru;; *);;
-prison_129749830 => nrel_address:
-   [ г. Минск, ул. Володарского, 2](* <- lang_ru;; *);;
-prison_129749830 => nrel_geographical_location: ...
+prison_1014331290 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.8987685, 27.5481118] (*
@@ -15,13 +13,14 @@ prison_129749830 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
-prison_129749830 <- rrel_key_sc_element:
-    prison_129749830_Image (*
-    => nrel_main_idtf:
-     [Следственный изолятор № 1 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Следственный изолятор № 1.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_1014331290 => nrel_osm_query: [(node(53.8972685, 27.5466118, 53.9002685, 27.5496118); <;);out meta;];;
+prison_1014331290 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_1014331290 => nrel_settlement:
+   [Минск](* <- lang_ru;; *);;
+prison_1014331290 => nrel_soato:
+   [5000000000](* <- lang_ru;; *);;
+prison_1014331290 => nrel_street:
+   [ул. Володарского](* <- lang_ru;; *);;
+prison_1014331290 => nrel_street_number:
+   [2](* <- lang_ru;; *);;

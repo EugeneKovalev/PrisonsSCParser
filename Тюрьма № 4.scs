@@ -1,27 +1,28 @@
-prison_423934132 => nrel_main_idtf:
+prison_559983302 => nrel_main_idtf:
    [Тюрьма № 4](* <- lang_ru;; *);;
-prison_423934132 => nrel_zip_code:
+prison_559983302 => nrel_zip_code:
    [212011](* <- lang_ru;; *);;
-prison_423934132 => nrel_address:
-   [ г. Могилев, ул. Крупской, 99А](* <- lang_ru;; *);;
-prison_423934132 => nrel_geographical_location: ...
+prison_559983302 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [53.9396716, 30.35419689999999] (*
+        => nrel_WGS_84_translation: [53.9396731, 30.35417829999999] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9396716] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.35419689999999] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [53.9396731] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [30.35417829999999] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_423934132 <- rrel_key_sc_element:
-    prison_423934132_Image (*
-    => nrel_main_idtf:
-     [Тюрьма № 4 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Тюрьма № 4.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_559983302 => nrel_osm_query: [(node(53.9381731, 30.35267829999999, 53.9411731, 30.35567829999999); <;);out meta;];;
+prison_559983302 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_559983302 => nrel_district:
+   [Могилёвская область](* <- lang_ru;; *);;
+prison_559983302 => nrel_region:
+   [Могилёвский район](* <- lang_ru;; *);;
+prison_559983302 => nrel_settlement:
+   [Могилёв](* <- lang_ru;; *);;
+prison_559983302 => nrel_street:
+   [улица Крупской](* <- lang_ru;; *);;
+prison_559983302 => nrel_street_number:
+   [95](* <- lang_ru;; *);;

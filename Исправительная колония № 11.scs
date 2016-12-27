@@ -1,10 +1,8 @@
-prison_907691131 => nrel_main_idtf:
+prison_722859953 => nrel_main_idtf:
    [Исправительная колония № 11](* <- lang_ru;; *);;
-prison_907691131 => nrel_zip_code:
+prison_722859953 => nrel_zip_code:
    [231900](* <- lang_ru;; *);;
-prison_907691131 => nrel_address:
-   [ г. Волковыск, ул. Рокоссовского, 118](* <- lang_ru;; *);;
-prison_907691131 => nrel_geographical_location: ...
+prison_722859953 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [53.1476887, 24.4788775] (*
@@ -15,3 +13,18 @@ prison_907691131 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
+prison_722859953 => nrel_osm_query: [(node(53.1461887, 24.4773775, 53.1491887, 24.4803775); <;);out meta;];;
+prison_722859953 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_722859953 => nrel_district:
+   [Гродненская область](* <- lang_ru;; *);;
+prison_722859953 => nrel_region:
+   [Волковысский район](* <- lang_ru;; *);;
+prison_722859953 => nrel_settlement:
+   [Волковыск](* <- lang_ru;; *);;
+prison_722859953 => nrel_soato:
+   [4208501000](* <- lang_ru;; *);;
+prison_722859953 => nrel_street:
+   [ул. Рокоссовского](* <- lang_ru;; *);;
+prison_722859953 => nrel_street_number:
+   [118A](* <- lang_ru;; *);;

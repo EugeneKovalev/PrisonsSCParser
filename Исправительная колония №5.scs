@@ -1,27 +1,30 @@
-prison_860125849 => nrel_main_idtf:
+prison_849766737 => nrel_main_idtf:
    [Исправительная колония №5](* <- lang_ru;; *);;
-prison_860125849 => nrel_zip_code:
+prison_849766737 => nrel_zip_code:
    [225295](* <- lang_ru;; *);;
-prison_860125849 => nrel_address:
-   [ г. Ивацевичи, ул. Дзержинского, 1](* <- lang_ru;; *);;
-prison_860125849 => nrel_geographical_location: ...
+prison_849766737 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
-        => nrel_WGS_84_translation: [52.7153821, 25.3421277] (*
+        => nrel_WGS_84_translation: [52.715385, 25.3421096] (*
             -> ... (*
                 <- concept_coordinate;;
-                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.7153821] ;; *);; *);;
-                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [25.3421277] ;; *);; *);;
+                -> rrel_latitude: ... (* <= nrel_value: ... (* -> rrel_degree: [52.715385] ;; *);; *);;
+                -> rrel_longitude: ... (* <= nrel_value: ... (* -> rrel_degree: [25.3421096] ;; *);; *);;
                     *);;
         *);;
     *);;
-prison_860125849 <- rrel_key_sc_element:
-    prison_860125849_Image (*
-    => nrel_main_idtf:
-     [Исправительная колония №5 - Изображение](* <- lang_ru;; *);;
-    <-sc_illustration;;
-    <= nrel_sc_text_translation: ...
-        (*
-        ->rrel_example:"file://Исправительная колония №5.jpg"(* <-image;; *);;
-        *);;
-*);;
+prison_849766737 => nrel_osm_query: [(node(52.713885, 25.3406096, 52.716885, 25.3436096); <;);out meta;];;
+prison_849766737 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_849766737 => nrel_district:
+   [Брестская область](* <- lang_ru;; *);;
+prison_849766737 => nrel_region:
+   [Ивацевичский район](* <- lang_ru;; *);;
+prison_849766737 => nrel_settlement:
+   [Ивацевичи](* <- lang_ru;; *);;
+prison_849766737 => nrel_soato:
+   [1234501000](* <- lang_ru;; *);;
+prison_849766737 => nrel_street:
+   [ул. Дзержинского](* <- lang_ru;; *);;
+prison_849766737 => nrel_street_number:
+   [22](* <- lang_ru;; *);;

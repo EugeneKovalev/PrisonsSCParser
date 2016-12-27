@@ -1,10 +1,8 @@
-prison_987659277 => nrel_main_idtf:
+prison_610462516 => nrel_main_idtf:
    [Исправительное учреждение открытого типа № 8](* <- lang_ru;; *);;
-prison_987659277 => nrel_zip_code:
+prison_610462516 => nrel_zip_code:
    [225710](* <- lang_ru;; *);;
-prison_987659277 => nrel_address:
-   [ г. Пинск, ул. Рокоссовского, 8](* <- lang_ru;; *);;
-prison_987659277 => nrel_geographical_location: ...
+prison_610462516 => nrel_geographical_location: ...
     (*
         <-concept_mapped_point;;
         => nrel_WGS_84_translation: [52.1332662, 26.1140748] (*
@@ -15,3 +13,18 @@ prison_987659277 => nrel_geographical_location: ...
                     *);;
         *);;
     *);;
+prison_610462516 => nrel_osm_query: [(node(52.1317662, 26.1125748, 52.1347662, 26.1155748); <;);out meta;];;
+prison_610462516 => nrel_country:
+   [Беларусь](* <- lang_ru;; *);;
+prison_610462516 => nrel_district:
+   [Брестская область](* <- lang_ru;; *);;
+prison_610462516 => nrel_region:
+   [Пинский район](* <- lang_ru;; *);;
+prison_610462516 => nrel_settlement:
+   [Пинск](* <- lang_ru;; *);;
+prison_610462516 => nrel_soato:
+   [1445000000](* <- lang_ru;; *);;
+prison_610462516 => nrel_street:
+   [ул. Рокоссовского](* <- lang_ru;; *);;
+prison_610462516 => nrel_street_number:
+   [8](* <- lang_ru;; *);;
